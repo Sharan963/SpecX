@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #050508, #0A0A0F, #12091D);
+}
+
+/* ===============================
+   Brand Variables
+================================ */
+:root {
+  --font-heading: "Orbitron", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --brand-blue: #3B82F6;
+  --brand-purple: #8B5CF6;
+  --brand-green: #22C55E;
+  --brand-dark: #0A0A0F;
+
+  /* New font variable */
+  --font-heading-alt: "Bebas Neue", sans-serif;
+}
+
+/* ===============================
+   Font Utility Classes
+================================ */
+.font-heading {
+  font-family: var(--font-heading); /* Orbitron */
+}
+
+.font-body {
+  font-family: var(--font-body); /* Inter */
+}
+
+.font-mono {
+  font-family: var(--font-mono); /* JetBrains Mono */
+}
+
+/* ✅ New font class — does NOT affect existing ones */
+.font-heading-alt {
+  font-family: var(--font-heading-alt); /* Bebas Neue */
+}

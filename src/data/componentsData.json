@@ -1,0 +1,115 @@
+{
+  "cpu": [
+    {
+      "id": "ryzen5-5600x",
+      "name": "AMD Ryzen 5 5600X",
+      "description": "6-core, 12-thread processor ideal for gaming and productivity.",
+      "specs": {
+        "cores": 6,
+        "threads": 12,
+        "baseClock": "3.7 GHz",
+        "boostClock": "4.6 GHz",
+        "cache": "35 MB",
+        "tdp": "65W",
+        "socket": "AM4"
+      }
+    },
+    {
+      "id": "i5-12400f",
+      "name": "Intel Core i5-12400F",
+      "description": "Mid-range Intel CPU with excellent gaming performance.",
+      "specs": {
+        "cores": 6,
+        "threads": 12,
+        "baseClock": "2.5 GHz",
+        "boostClock": "4.4 GHz",
+        "cache": "18 MB",
+        "tdp": "65W",
+        "socket": "LGA1700"
+      }
+    }
+  ],
+
+  "gpu": [
+    {
+      "id": "rtx-4060",
+      "name": "NVIDIA GeForce RTX 4060",
+      "description": "Latest-gen GPU with DLSS 3 support for smooth 1080p gaming.",
+      "specs": {
+        "vram": "8 GB GDDR6",
+        "boostClock": "2.46 GHz",
+        "cudaCores": 3072,
+        "tdp": "115W",
+        "recommendedPsu": "550W"
+      }
+    },
+    {
+      "id": "rx-7600",
+      "name": "AMD Radeon RX 7600",
+      "description": "High-performance AMD GPU for competitive gaming.",
+      "specs": {
+        "vram": "8 GB GDDR6",
+        "boostClock": "2.65 GHz",
+        "streamProcessors": 2048,
+        "tdp": "165W",
+        "recommendedPsu": "600W"
+      }
+    }
+  ],
+
+  "ram": [
+    {
+      "id": "corsair-16gb-ddr4",
+      "name": "Corsair Vengeance 16GB DDR4",
+      "description": "High-speed dual-channel memory kit for gaming PCs.",
+      "specs": {
+        "capacity": "16 GB (2x8GB)",
+        "speed": "3200 MHz",
+        "type": "DDR4",
+        "latency": "CL16",
+        "voltage": "1.35V"
+      }
+    },
+    {
+      "id": "gskill-32gb-ddr5",
+      "name": "G.Skill Trident Z 32GB DDR5",
+      "description": "Premium DDR5 RAM for high-end builds.",
+      "specs": {
+        "capacity": "32 GB (2x16GB)",
+        "speed": "5600 MHz",
+        "type": "DDR5",
+        "latency": "CL36",
+        "voltage": "1.25V"
+      }
+    }
+  ],
+
+  "motherboard": [
+    {
+      "id": "asus-b550-f",
+      "name": "ASUS ROG Strix B550-F",
+      "description": "Gaming motherboard for AMD Ryzen processors.",
+      "specs": {
+        "chipset": "B550",
+        "socket": "AM4",
+        "formFactor": "ATX",
+        "memorySlots": 4,
+        "maxMemory": "128 GB",
+        "pcie": "PCIe 4.0"
+      }
+    },
+    {
+      "id": "msi-b760m",
+      "name": "MSI PRO B760M",
+      "description": "Micro-ATX motherboard for Intel 12th/13th Gen CPUs.",
+      "specs": {
+        "chipset": "B760",
+        "socket": "LGA1700",
+        "formFactor": "Micro-ATX",
+        "memorySlots": 4,
+        "maxMemory": "128 GB",
+        "pcie": "PCIe 5.0"
+      }
+    }
+  ]
+}
