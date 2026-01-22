@@ -49,7 +49,7 @@ const Accessories = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full h-162.5 mt-10 text-white p-10 flex flex-col items-center">
+    <div className="w-full h-150 box-border mt-10 text-white p-10 flex flex-col items-center">
       <h1 className="font-heading-alt text-5xl mt-16">Accessories</h1>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-32 mt-3">

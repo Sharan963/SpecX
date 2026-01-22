@@ -71,7 +71,7 @@ export default function Category() {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full h-screen mt-10 text-white p-10 flex flex-col items-center">
+    <div className="w-full h-screen mt-30 text-white p-10 flex flex-col items-center">
       <h1 className="font-heading-alt text-5xl">Core Components</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-3">
         {coreComponents.map((item) => (
@@ -87,17 +87,18 @@ export default function Category() {
               className="w-full h-52 rounded-t-lg object-cover"
               alt=""
             />
-
-            {/* Content wrapper */}
             <div className="flex flex-col flex-1">
               <h1 className="text-2xl font-heading-alt">{item.name}</h1>
 
-              {/* Description grows but does not push the badge unevenly */}
               <p className="font-heading mt-2 flex-1">{item.description}</p>
 
-              {item.required && (
+              {item.required ? (
                 <span className="inline-block mt-3 text-xs text-green-600 font-heading">
                   Required
+                </span>
+              ) : (
+                <span className="inline-block mt-3 text-xs text-green-600 font-heading">
+                  Recommended
                 </span>
               )}
             </div>

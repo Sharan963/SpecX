@@ -41,3 +41,18 @@ body {
 .font-heading-alt {
   font-family: var(--font-heading-alt); /* Bebas Neue */
 }
+
+.page-transition {
+  animation: fadeIn 300ms ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

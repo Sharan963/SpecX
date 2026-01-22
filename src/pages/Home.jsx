@@ -5,6 +5,9 @@ import WhyUs from "../components/layout/WhyUs";
 import AboutUs from "../components/layout/AboutUs";
 import Category from "../components/layout/Category";
 import Accessories from "../components/layout/Accessories";
+import Gaming from "../components/layout/Gaming";
+import ReadyToBuild from "../components/layout/ReadyToBuild";
+import Footer from "../components/layout/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +18,9 @@ const Home = () => {
     <WhyUs />
     <Category />
     <Accessories />
+    <Gaming />
+    <ReadyToBuild />
+    <Footer />
     </>
   );
 };
