@@ -14,6 +14,7 @@ import cpu12 from "@/assets/Images/cpu12.webp";
 import cpu13 from "@/assets/Images/cpu13.jpg";
 import cpu14 from "@/assets/Images/cpu14.webp";
 import cpu15 from "@/assets/Images/cpu15.jpg";
+import background1 from "@/assets/Images/background1.jpg";
 
 import gpu1 from "@/assets/Images/gpu1.jpg";
 import gpu2 from "@/assets/Images/gpu2.jpg";
@@ -30,6 +31,7 @@ import gpu12 from "@/assets/Images/gpu12.jpg";
 import gpu13 from "@/assets/Images/gpu13.jpg";
 import gpu14 from "@/assets/Images/gpu14.webp";
 import gpu15 from "@/assets/Images/gpu15.jpg";
+import background2 from "@/assets/Images/background2.jpg";
 
 import ram1 from "@/assets/Images/ram1.webp";
 import ram2 from "@/assets/Images/ram2.webp";
@@ -46,6 +48,7 @@ import ram12 from "@/assets/Images/ram12.jpg";
 import ram13 from "@/assets/Images/ram13.jpg";
 import ram14 from "@/assets/Images/ram14.jpg";
 import ram15 from "@/assets/Images/ram15.jpg";
+import background3 from "@/assets/Images/background3.jpg";
 
 import mb1 from "@/assets/Images/mb1.webp";
 import mb2 from "@/assets/Images/mb2.jpg";
@@ -62,6 +65,7 @@ import mb12 from "@/assets/Images/mb12.jpg";
 import mb13 from "@/assets/Images/mb13.jpg";
 import mb14 from "@/assets/Images/mb14.png";
 import mb15 from "@/assets/Images/mb15.jpg";
+import background4 from "@/assets/Images/background4.avif";
 
 import storage1 from "@/assets/Images/storage1.jpg";
 import storage2 from "@/assets/Images/storage2.jpg";
@@ -78,61 +82,69 @@ import storage12 from "@/assets/Images/storage12.jpg";
 import storage13 from "@/assets/Images/storage13.webp";
 import storage14 from "@/assets/Images/storage14.avif";
 import storage15 from "@/assets/Images/storage15.jpeg";
+import background5 from "@/assets/Images/background5.jpg";
 
-// import psu1 from "@/assets/Images/psu1.jpg";
-// import psu2 from "@/assets/Images/psu2.jpg";
-// import psu3 from "@/assets/Images/psu3.jpg";
-// import psu4 from "@/assets/Images/psu4.jpg";
-// import psu5 from "@/assets/Images/psu5.jpg";
-// import psu6 from "@/assets/Images/psu6.jpg";
-// import psu7 from "@/assets/Images/psu7.jpg";
-// import psu8 from "@/assets/Images/psu8.jpg";
-// import psu9 from "@/assets/Images/psu9.jpg";
-// import psu10 from "@/assets/Images/psu10.jpg";
-// import psu11 from "@/assets/Images/psu11.jpg";
-// import psu12 from "@/assets/Images/psu12.jpg";
-// import psu13 from "@/assets/Images/psu13.jpg";
-// import psu14 from "@/assets/Images/psu14.jpg";
-// import psu15 from "@/assets/Images/psu15.jpg";
+import psu1 from "@/assets/Images/psu1.jpg";
+import psu2 from "@/assets/Images/psu2.jpg";
+import psu3 from "@/assets/Images/psu3.jpg";
+import psu4 from "@/assets/Images/psu4.jpg";
+import psu5 from "@/assets/Images/psu5.jpg";
+import psu6 from "@/assets/Images/psu6.jpg";
+import psu7 from "@/assets/Images/psu7.jpg";
+import psu8 from "@/assets/Images/psu8.jpg";
+import psu9 from "@/assets/Images/psu9.jpg";
+import psu10 from "@/assets/Images/psu10.jpg";
+import psu11 from "@/assets/Images/psu11.jpg";
+import psu12 from "@/assets/Images/psu12.webp";
+import psu13 from "@/assets/Images/psu13.avif";
+import psu14 from "@/assets/Images/psu14.jpg";
+import psu15 from "@/assets/Images/psu15.jpg";
+import background6 from "@/assets/Images/background6.jpg";
 
-// import case1 from "@/assets/Images/case1.jpg";
-// import case2 from "@/assets/Images/case2.jpg";
-// import case3 from "@/assets/Images/case3.jpg";
-// import case4 from "@/assets/Images/case4.jpg";
-// import case5 from "@/assets/Images/case5.jpg";
-// import case6 from "@/assets/Images/case6.jpg";
-// import case7 from "@/assets/Images/case7.jpg";
-// import case8 from "@/assets/Images/case8.jpg";
-// import case9 from "@/assets/Images/case9.jpg";
-// import case10 from "@/assets/Images/case10.jpg";
-// import case11 from "@/assets/Images/case11.jpg";
-// import case12 from "@/assets/Images/case12.jpg";
-// import case13 from "@/assets/Images/case13.jpg";
-// import case14 from "@/assets/Images/case14.jpg";
-// import case15 from "@/assets/Images/case15.jpg";
+import case1 from "@/assets/Images/case1.jpg";
+import case2 from "@/assets/Images/case2.jpg";
+import case3 from "@/assets/Images/case3.webp";
+import case4 from "@/assets/Images/case4.jpg";
+import case5 from "@/assets/Images/case5.jpg";
+import case6 from "@/assets/Images/case6.jpg";
+import case7 from "@/assets/Images/case7.jpg";
+import case8 from "@/assets/Images/case8.webp";
+import case9 from "@/assets/Images/case9.webp";
+import case10 from "@/assets/Images/case10.webp";
+import case11 from "@/assets/Images/case11.jpg";
+import case12 from "@/assets/Images/case12.jpg";
+import case13 from "@/assets/Images/case13.webp";
+import case14 from "@/assets/Images/case14.jpg";
+import case15 from "@/assets/Images/case15.webp";
+import background7 from "@/assets/Images/background7.jpg";
 
-// import cooler1 from "@/assets/Images/cooler1.jpg";
-// import cooler2 from "@/assets/Images/cooler2.jpg";
-// import cooler3 from "@/assets/Images/cooler3.jpg";
-// import cooler4 from "@/assets/Images/cooler4.jpg";
-// import cooler5 from "@/assets/Images/cooler5.jpg";
-// import cooler6 from "@/assets/Images/cooler6.jpg";
-// import cooler7 from "@/assets/Images/cooler7.jpg";
-// import cooler8 from "@/assets/Images/cooler8.jpg";
-// import cooler9 from "@/assets/Images/cooler9.jpg";
-// import cooler10 from "@/assets/Images/cooler10.jpg";
-// import cooler11 from "@/assets/Images/cooler11.jpg";
-// import cooler12 from "@/assets/Images/cooler12.jpg";
-// import cooler13 from "@/assets/Images/cooler13.jpg";
-// import cooler14 from "@/assets/Images/cooler14.jpg";
-// import cooler15 from "@/assets/Images/cooler15.jpg";
+import cooler1 from "@/assets/Images/cooler1.webp";
+import cooler2 from "@/assets/Images/cooler2.jpg";
+import cooler3 from "@/assets/Images/cooler3.jpg";
+import cooler4 from "@/assets/Images/cooler4.jpg";
+import cooler5 from "@/assets/Images/cooler5.jpg";
+import cooler6 from "@/assets/Images/cooler6.jpg";
+import cooler7 from "@/assets/Images/cooler7.jpg";
+import cooler8 from "@/assets/Images/cooler8.jpg";
+import cooler9 from "@/assets/Images/cooler9.jpg";
+import cooler10 from "@/assets/Images/cooler10.jpg";
+import cooler11 from "@/assets/Images/cooler11.png";
+import cooler12 from "@/assets/Images/cooler12.jpg";
+import cooler13 from "@/assets/Images/cooler13.jpg";
+import cooler14 from "@/assets/Images/cooler14.jpg";
+import cooler15 from "@/assets/Images/cooler15.webp";
+import background8 from "@/assets/Images/background8.jpg";
 
 const data = {
   cpu: [
     {
       id: "ryzen9-7950x",
+      heading: "High-Performance Processors",
+      sub: "Power your system with cutting-edge CPUs designed for gaming, multitasking, and extreme performance.",
       name: "AMD Ryzen 9 7950X",
+      img: background1,
       image: cpu1,
+      price: 58999,
       description:
         "Flagship AMD processor for extreme gaming and productivity.",
       specs: {
@@ -149,6 +161,7 @@ const data = {
       id: "i9-13900k",
       name: "Intel Core i9-13900K",
       image: cpu2,
+      price: 55999,
       description: "High-end Intel CPU for gaming and heavy workloads.",
       specs: {
         cores: 24,
@@ -164,6 +177,7 @@ const data = {
       id: "ryzen7-7800x3d",
       name: "AMD Ryzen 7 7800X3D",
       image: cpu3,
+      price: 42999,
       description: "Best gaming CPU with 3D V-Cache technology.",
       specs: {
         cores: 8,
@@ -179,6 +193,7 @@ const data = {
       id: "i7-13700k",
       name: "Intel Core i7-13700K",
       image: cpu4,
+      price: 39999,
       description: "High-performance CPU for gaming and productivity.",
       specs: {
         cores: 16,
@@ -194,6 +209,7 @@ const data = {
       id: "ryzen7-7700x",
       name: "AMD Ryzen 7 7700X",
       image: cpu5,
+      price: 32999,
       description: "Powerful 8-core CPU for gaming and content creation.",
       specs: {
         cores: 8,
@@ -209,6 +225,7 @@ const data = {
       id: "i5-13600k",
       name: "Intel Core i5-13600K",
       image: cpu6,
+      price: 28999,
       description: "Excellent mid-high range gaming CPU.",
       specs: {
         cores: 14,
@@ -224,6 +241,7 @@ const data = {
       id: "ryzen5-7600x",
       name: "AMD Ryzen 5 7600X",
       image: cpu7,
+      price: 24999,
       description: "Strong gaming CPU with great efficiency.",
       specs: {
         cores: 6,
@@ -239,6 +257,7 @@ const data = {
       id: "i5-12600k",
       name: "Intel Core i5-12600K",
       image: cpu8,
+      price: 22999,
       description: "Balanced CPU for gaming and multitasking.",
       specs: {
         cores: 10,
@@ -254,6 +273,7 @@ const data = {
       id: "ryzen5-5600x",
       name: "AMD Ryzen 5 5600X",
       image: cpu9,
+      price: 16999,
       description: "Popular gaming CPU with excellent value.",
       specs: {
         cores: 6,
@@ -269,6 +289,7 @@ const data = {
       id: "i5-12400f",
       name: "Intel Core i5-12400F",
       image: cpu10,
+      price: 13999,
       description: "Best budget gaming CPU from Intel.",
       specs: {
         cores: 6,
@@ -284,6 +305,7 @@ const data = {
       id: "ryzen5-5500",
       name: "AMD Ryzen 5 5500",
       image: cpu11,
+      price: 11499,
       description: "Budget-friendly CPU for entry gaming.",
       specs: {
         cores: 6,
@@ -299,6 +321,7 @@ const data = {
       id: "i3-12100f",
       name: "Intel Core i3-12100F",
       image: cpu12,
+      price: 9999,
       description: "Best entry-level gaming processor.",
       specs: {
         cores: 4,
@@ -314,6 +337,7 @@ const data = {
       id: "ryzen3-4100",
       name: "AMD Ryzen 3 4100",
       image: cpu13,
+      price: 7999,
       description: "Basic CPU for daily tasks and light gaming.",
       specs: {
         cores: 4,
@@ -329,6 +353,7 @@ const data = {
       id: "i3-10105f",
       name: "Intel Core i3-10105F",
       image: cpu14,
+      price: 8499,
       description: "Entry-level processor for basic usage.",
       specs: {
         cores: 4,
@@ -344,6 +369,7 @@ const data = {
       id: "athlon-3000g",
       name: "AMD Athlon 3000G",
       image: cpu15,
+      price: 5499,
       description: "Budget CPU for office and basic computing.",
       specs: {
         cores: 2,
@@ -356,11 +382,16 @@ const data = {
       },
     },
   ],
+
   gpu: [
     {
       id: "gpu1",
       name: "RTX 4090",
+      img: background2,
+      heading: "Next-Gen Graphics Cards",
+      sub: "Experience ultra-smooth gameplay, ray tracing, and stunning visuals with powerful GPUs",
       image: gpu1,
+      price: 185000,
       description: "Flagship GPU",
       specs: { vram: "24GB", tdp: "450W" },
     },
@@ -368,6 +399,7 @@ const data = {
       id: "gpu2",
       name: "RTX 4080",
       image: gpu2,
+      price: 115000,
       description: "High-end GPU",
       specs: { vram: "16GB", tdp: "320W" },
     },
@@ -375,6 +407,7 @@ const data = {
       id: "gpu3",
       name: "RTX 4070",
       image: gpu3,
+      price: 62000,
       description: "1440p GPU",
       specs: { vram: "12GB", tdp: "200W" },
     },
@@ -382,6 +415,7 @@ const data = {
       id: "gpu4",
       name: "RTX 4060",
       image: gpu4,
+      price: 34000,
       description: "1080p GPU",
       specs: { vram: "8GB", tdp: "115W" },
     },
@@ -389,6 +423,7 @@ const data = {
       id: "gpu5",
       name: "RX 7900 XTX",
       image: gpu5,
+      price: 98000,
       description: "AMD Flagship",
       specs: { vram: "24GB", tdp: "355W" },
     },
@@ -396,6 +431,7 @@ const data = {
       id: "gpu6",
       name: "RX 7800 XT",
       image: gpu6,
+      price: 55000,
       description: "AMD High End",
       specs: { vram: "16GB", tdp: "263W" },
     },
@@ -403,6 +439,7 @@ const data = {
       id: "gpu7",
       name: "RX 7700 XT",
       image: gpu7,
+      price: 47000,
       description: "Mid range GPU",
       specs: { vram: "12GB", tdp: "245W" },
     },
@@ -410,6 +447,7 @@ const data = {
       id: "gpu8",
       name: "RX 7600",
       image: gpu8,
+      price: 28000,
       description: "Budget GPU",
       specs: { vram: "8GB", tdp: "165W" },
     },
@@ -417,6 +455,7 @@ const data = {
       id: "gpu9",
       name: "RTX 3060",
       image: gpu9,
+      price: 30000,
       description: "Popular GPU",
       specs: { vram: "12GB", tdp: "170W" },
     },
@@ -424,6 +463,7 @@ const data = {
       id: "gpu10",
       name: "RTX 3050",
       image: gpu10,
+      price: 24000,
       description: "Entry gaming GPU",
       specs: { vram: "8GB", tdp: "130W" },
     },
@@ -431,6 +471,7 @@ const data = {
       id: "gpu11",
       name: "GTX 1660",
       image: gpu11,
+      price: 18000,
       description: "Budget GPU",
       specs: { vram: "6GB", tdp: "120W" },
     },
@@ -438,6 +479,7 @@ const data = {
       id: "gpu12",
       name: "RX 6600",
       image: gpu12,
+      price: 21000,
       description: "AMD Budget GPU",
       specs: { vram: "8GB", tdp: "132W" },
     },
@@ -445,6 +487,7 @@ const data = {
       id: "gpu13",
       name: "RX 6500 XT",
       image: gpu13,
+      price: 16000,
       description: "Entry AMD GPU",
       specs: { vram: "4GB", tdp: "107W" },
     },
@@ -452,6 +495,7 @@ const data = {
       id: "gpu14",
       name: "GTX 1650",
       image: gpu14,
+      price: 14000,
       description: "Low power GPU",
       specs: { vram: "4GB", tdp: "75W" },
     },
@@ -459,15 +503,21 @@ const data = {
       id: "gpu15",
       name: "GT 1030",
       image: gpu15,
+      price: 6500,
       description: "Office GPU",
       specs: { vram: "2GB", tdp: "30W" },
     },
   ],
+
   ram: [
     {
       id: "ram-1",
       name: "Corsair Vengeance 16GB",
+      img: background3,
+      heading: "High-Speed Memory Modules",
+      sub: "Boost multitasking and gaming performance with fast, reliable RAM options",
       image: ram1,
+      price: 4500,
       description: "High-performance DDR4 gaming memory.",
       specs: {
         capacity: "16GB",
@@ -479,6 +529,7 @@ const data = {
       id: "ram-2",
       name: "G.Skill Trident Z 32GB",
       image: ram2,
+      price: 8500,
       description: "Premium DDR5 RAM for gaming builds.",
       specs: {
         capacity: "32GB",
@@ -490,6 +541,7 @@ const data = {
       id: "ram-3",
       name: "Kingston Fury 16GB",
       image: ram3,
+      price: 4800,
       description: "Reliable performance memory.",
       specs: {
         capacity: "16GB",
@@ -501,6 +553,7 @@ const data = {
       id: "ram-4",
       name: "Crucial Ballistix 8GB",
       image: ram4,
+      price: 2400,
       description: "Budget-friendly RAM module.",
       specs: {
         capacity: "8GB",
@@ -512,6 +565,7 @@ const data = {
       id: "ram-5",
       name: "ADATA XPG 16GB",
       image: ram5,
+      price: 4700,
       description: "High-speed gaming RAM.",
       specs: {
         capacity: "16GB",
@@ -523,6 +577,7 @@ const data = {
       id: "ram-6",
       name: "Corsair Dominator 32GB",
       image: ram6,
+      price: 12000,
       description: "High-end DDR5 RAM.",
       specs: {
         capacity: "32GB",
@@ -534,6 +589,7 @@ const data = {
       id: "ram-7",
       name: "TeamGroup T-Force 16GB",
       image: ram7,
+      price: 4600,
       description: "Stylish RGB gaming RAM.",
       specs: {
         capacity: "16GB",
@@ -545,6 +601,7 @@ const data = {
       id: "ram-8",
       name: "Patriot Viper 8GB",
       image: ram8,
+      price: 2200,
       description: "Affordable memory module.",
       specs: {
         capacity: "8GB",
@@ -556,6 +613,7 @@ const data = {
       id: "ram-9",
       name: "XPG Spectrix 16GB",
       image: ram9,
+      price: 4900,
       description: "RGB gaming memory.",
       specs: {
         capacity: "16GB",
@@ -567,6 +625,7 @@ const data = {
       id: "ram-10",
       name: "G.Skill Ripjaws 64GB",
       image: ram10,
+      price: 22000,
       description: "High-capacity RAM for creators.",
       specs: {
         capacity: "64GB",
@@ -578,6 +637,7 @@ const data = {
       id: "ram-11",
       name: "Corsair Value Select 8GB",
       image: ram11,
+      price: 2100,
       description: "Basic RAM for everyday use.",
       specs: {
         capacity: "8GB",
@@ -589,6 +649,7 @@ const data = {
       id: "ram-12",
       name: "ADATA 32GB DDR5",
       image: ram12,
+      price: 11000,
       description: "High-speed next-gen memory.",
       specs: {
         capacity: "32GB",
@@ -600,6 +661,7 @@ const data = {
       id: "ram-13",
       name: "Kingston HyperX 16GB",
       image: ram13,
+      price: 4800,
       description: "Reliable gaming RAM.",
       specs: {
         capacity: "16GB",
@@ -611,6 +673,7 @@ const data = {
       id: "ram-14",
       name: "Crucial DDR5 32GB",
       image: ram14,
+      price: 12500,
       description: "High-performance DDR5 RAM.",
       specs: {
         capacity: "32GB",
@@ -622,6 +685,7 @@ const data = {
       id: "ram-15",
       name: "TeamGroup Elite 8GB",
       image: ram15,
+      price: 2000,
       description: "Entry-level RAM module.",
       specs: {
         capacity: "8GB",
@@ -630,11 +694,16 @@ const data = {
       },
     },
   ],
+
   motherboard: [
     {
       id: "mb-1",
       name: "ASUS ROG Strix B550-F",
+      img: background4,
+      heading: "Performance-Ready Motherboards",
+      sub: "The foundation of your PC — built for stability, speed, and future upgrades",
       image: mb1,
+      price: 18500,
       description: "High-performance gaming motherboard for AMD CPUs.",
       specs: {
         chipset: "B550",
@@ -648,6 +717,7 @@ const data = {
       id: "mb-2",
       name: "MSI MAG B550 Tomahawk",
       image: mb2,
+      price: 17000,
       description: "Durable motherboard with strong VRM cooling.",
       specs: {
         chipset: "B550",
@@ -661,6 +731,7 @@ const data = {
       id: "mb-3",
       name: "Gigabyte B550 Aorus Elite",
       image: mb3,
+      price: 16500,
       description: "Gaming motherboard with PCIe 4.0 support.",
       specs: {
         chipset: "B550",
@@ -674,6 +745,7 @@ const data = {
       id: "mb-4",
       name: "ASUS TUF B550-Plus",
       image: mb4,
+      price: 16000,
       description: "Military-grade durability motherboard.",
       specs: {
         chipset: "B550",
@@ -687,6 +759,7 @@ const data = {
       id: "mb-5",
       name: "MSI B450M Pro",
       image: mb5,
+      price: 9000,
       description: "Budget-friendly motherboard for Ryzen.",
       specs: {
         chipset: "B450",
@@ -700,6 +773,7 @@ const data = {
       id: "mb-6",
       name: "ASUS Prime Z690-P",
       image: mb6,
+      price: 22000,
       description: "High-end Intel motherboard with DDR5 support.",
       specs: {
         chipset: "Z690",
@@ -713,6 +787,7 @@ const data = {
       id: "mb-7",
       name: "MSI PRO B660M-A",
       image: mb7,
+      price: 13500,
       description: "Reliable motherboard for Intel 12th Gen CPUs.",
       specs: {
         chipset: "B660",
@@ -726,6 +801,7 @@ const data = {
       id: "mb-8",
       name: "Gigabyte Z790 Aorus Elite",
       image: mb8,
+      price: 28000,
       description: "High-performance motherboard for Intel 13th Gen.",
       specs: {
         chipset: "Z790",
@@ -739,6 +815,7 @@ const data = {
       id: "mb-9",
       name: "ASRock B450 Steel Legend",
       image: mb9,
+      price: 11000,
       description: "Stylish motherboard with solid performance.",
       specs: {
         chipset: "B450",
@@ -752,6 +829,7 @@ const data = {
       id: "mb-10",
       name: "ASUS Prime H610M-E",
       image: mb10,
+      price: 8500,
       description: "Entry-level Intel motherboard.",
       specs: {
         chipset: "H610",
@@ -765,6 +843,7 @@ const data = {
       id: "mb-11",
       name: "MSI MPG Z790 Edge",
       image: mb11,
+      price: 32000,
       description: "Premium motherboard with DDR5 support.",
       specs: {
         chipset: "Z790",
@@ -778,6 +857,7 @@ const data = {
       id: "mb-12",
       name: "Gigabyte B660 DS3H",
       image: mb12,
+      price: 12000,
       description: "Affordable Intel motherboard.",
       specs: {
         chipset: "B660",
@@ -791,6 +871,7 @@ const data = {
       id: "mb-13",
       name: "ASRock X570 Phantom",
       image: mb13,
+      price: 19000,
       description: "High-end AMD motherboard.",
       specs: {
         chipset: "X570",
@@ -804,6 +885,7 @@ const data = {
       id: "mb-14",
       name: "MSI B550 Gaming Plus",
       image: mb14,
+      price: 15000,
       description: "Gaming-focused B550 motherboard.",
       specs: {
         chipset: "B550",
@@ -817,6 +899,7 @@ const data = {
       id: "mb-15",
       name: "ASUS ROG Maximus Z790",
       image: mb15,
+      price: 45000,
       description: "Flagship motherboard for extreme builds.",
       specs: {
         chipset: "Z790",
@@ -827,11 +910,16 @@ const data = {
       },
     },
   ],
+
   storage: [
     {
       id: "storage-1",
       name: "Samsung 980 Pro 1TB",
+      heading: "Fast & Reliable Storage",
+      img: background5,
+      sub: "Store games, apps, and files with ultra-fast SSDs and high-capacity drives",
       image: storage1,
+      price: 9500,
       description: "High-speed NVMe SSD for gaming and productivity.",
       specs: {
         capacity: "1TB",
@@ -843,6 +931,7 @@ const data = {
       id: "storage-2",
       name: "WD Black SN850X 2TB",
       image: storage2,
+      price: 16500,
       description: "Premium PCIe Gen4 NVMe SSD.",
       specs: {
         capacity: "2TB",
@@ -854,6 +943,7 @@ const data = {
       id: "storage-3",
       name: "Crucial P5 Plus 1TB",
       image: storage3,
+      price: 8500,
       description: "Reliable high-speed SSD.",
       specs: {
         capacity: "1TB",
@@ -865,6 +955,7 @@ const data = {
       id: "storage-4",
       name: "Samsung 870 EVO 1TB",
       image: storage4,
+      price: 7200,
       description: "High-performance SATA SSD.",
       specs: {
         capacity: "1TB",
@@ -876,6 +967,7 @@ const data = {
       id: "storage-5",
       name: "WD Blue 1TB HDD",
       image: storage5,
+      price: 3200,
       description: "Reliable hard drive for storage.",
       specs: {
         capacity: "1TB",
@@ -887,6 +979,7 @@ const data = {
       id: "storage-6",
       name: "Seagate Barracuda 2TB",
       image: storage6,
+      price: 4800,
       description: "High-capacity HDD for backups.",
       specs: {
         capacity: "2TB",
@@ -898,6 +991,7 @@ const data = {
       id: "storage-7",
       name: "Kingston NV2 1TB",
       image: storage7,
+      price: 5200,
       description: "Budget NVMe SSD.",
       specs: {
         capacity: "1TB",
@@ -909,6 +1003,7 @@ const data = {
       id: "storage-8",
       name: "ADATA XPG SX8200 Pro",
       image: storage8,
+      price: 6500,
       description: "High-performance NVMe SSD.",
       specs: {
         capacity: "1TB",
@@ -920,6 +1015,7 @@ const data = {
       id: "storage-9",
       name: "Crucial MX500 500GB",
       image: storage9,
+      price: 4200,
       description: "Reliable SATA SSD.",
       specs: {
         capacity: "500GB",
@@ -931,6 +1027,7 @@ const data = {
       id: "storage-10",
       name: "Samsung 970 EVO Plus",
       image: storage10,
+      price: 7800,
       description: "Fast NVMe SSD for gaming.",
       specs: {
         capacity: "1TB",
@@ -942,6 +1039,7 @@ const data = {
       id: "storage-11",
       name: "WD Green 480GB",
       image: storage11,
+      price: 2800,
       description: "Entry-level SSD.",
       specs: {
         capacity: "480GB",
@@ -953,6 +1051,7 @@ const data = {
       id: "storage-12",
       name: "Seagate FireCuda 530",
       image: storage12,
+      price: 15500,
       description: "Extreme performance SSD.",
       specs: {
         capacity: "1TB",
@@ -964,6 +1063,7 @@ const data = {
       id: "storage-13",
       name: "Kingston A2000",
       image: storage13,
+      price: 5200,
       description: "Affordable NVMe SSD.",
       specs: {
         capacity: "1TB",
@@ -975,6 +1075,7 @@ const data = {
       id: "storage-14",
       name: "Toshiba P300",
       image: storage14,
+      price: 3100,
       description: "Desktop HDD for storage.",
       specs: {
         capacity: "1TB",
@@ -986,6 +1087,7 @@ const data = {
       id: "storage-15",
       name: "Samsung T7 External SSD",
       image: storage15,
+      price: 9800,
       description: "Portable high-speed SSD.",
       specs: {
         capacity: "1TB",
@@ -994,507 +1096,564 @@ const data = {
       },
     },
   ],
-  // psu: [
-  //   {
-  //     id: "psu-1",
-  //     name: "Corsair CV550",
-  //     image: psu1,
-  //     description: "Reliable 550W PSU for budget builds.",
-  //     specs: {
-  //       wattage: "550W",
-  //       efficiency: "80+ Bronze",
-  //       modular: "No",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-2",
-  //     name: "Corsair RM650",
-  //     image: psu2,
-  //     description: "Fully modular PSU with high efficiency.",
-  //     specs: {
-  //       wattage: "650W",
-  //       efficiency: "80+ Gold",
-  //       modular: "Yes",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-3",
-  //     name: "Cooler Master MWE 650",
-  //     image: psu3,
-  //     description: "Stable PSU for gaming systems.",
-  //     specs: {
-  //       wattage: "650W",
-  //       efficiency: "80+ Bronze",
-  //       modular: "No",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-4",
-  //     name: "Seasonic Focus GX-750",
-  //     image: psu4,
-  //     description: "Premium PSU with gold efficiency.",
-  //     specs: {
-  //       wattage: "750W",
-  //       efficiency: "80+ Gold",
-  //       modular: "Yes",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-5",
-  //     name: "EVGA 600 BR",
-  //     image: psu5,
-  //     description: "Affordable PSU for entry builds.",
-  //     specs: {
-  //       wattage: "600W",
-  //       efficiency: "80+ Bronze",
-  //       modular: "No",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-6",
-  //     name: "Corsair RM750x",
-  //     image: psu6,
-  //     description: "High-end PSU for gaming rigs.",
-  //     specs: {
-  //       wattage: "750W",
-  //       efficiency: "80+ Gold",
-  //       modular: "Fully Modular",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-7",
-  //     name: "Cooler Master V850",
-  //     image: psu7,
-  //     description: "850W PSU for high-end GPUs.",
-  //     specs: {
-  //       wattage: "850W",
-  //       efficiency: "80+ Gold",
-  //       modular: "Fully Modular",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-8",
-  //     name: "Gigabyte P650B",
-  //     image: psu8,
-  //     description: "Budget PSU with bronze rating.",
-  //     specs: {
-  //       wattage: "650W",
-  //       efficiency: "80+ Bronze",
-  //       modular: "No",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-9",
-  //     name: "Thermaltake Smart 600W",
-  //     image: psu9,
-  //     description: "Entry-level PSU for office PCs.",
-  //     specs: {
-  //       wattage: "600W",
-  //       efficiency: "80+ White",
-  //       modular: "No",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-10",
-  //     name: "MSI MPG A750GF",
-  //     image: psu10,
-  //     description: "High-quality PSU for gaming PCs.",
-  //     specs: {
-  //       wattage: "750W",
-  //       efficiency: "80+ Gold",
-  //       modular: "Fully Modular",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-11",
-  //     name: "Antec VP550",
-  //     image: psu11,
-  //     description: "Reliable PSU for budget builds.",
-  //     specs: {
-  //       wattage: "550W",
-  //       efficiency: "80+",
-  //       modular: "No",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-12",
-  //     name: "Deepcool PK650D",
-  //     image: psu12,
-  //     description: "Efficient PSU for mid-range systems.",
-  //     specs: {
-  //       wattage: "650W",
-  //       efficiency: "80+ Bronze",
-  //       modular: "No",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-13",
-  //     name: "NZXT C750",
-  //     image: psu13,
-  //     description: "High-quality PSU with clean power delivery.",
-  //     specs: {
-  //       wattage: "750W",
-  //       efficiency: "80+ Gold",
-  //       modular: "Fully Modular",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-14",
-  //     name: "Cooler Master MWE 450",
-  //     image: psu14,
-  //     description: "Entry-level PSU for office PCs.",
-  //     specs: {
-  //       wattage: "450W",
-  //       efficiency: "80+ Bronze",
-  //       modular: "No",
-  //     },
-  //   },
-  //   {
-  //     id: "psu-15",
-  //     name: "ASUS ROG Thor 850W",
-  //     image: psu15,
-  //     description: "Premium PSU with OLED display.",
-  //     specs: {
-  //       wattage: "850W",
-  //       efficiency: "80+ Platinum",
-  //       modular: "Fully Modular",
-  //     },
-  //   },
-  // ],
-  // case: [
-  //   {
-  //     id: "case-1",
-  //     name: "NZXT H510",
-  //     image: case1,
-  //     description: "Minimalist mid-tower case with great airflow.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 2,
-  //     },
-  //   },
-  //   {
-  //     id: "case-2",
-  //     name: "Corsair 4000D Airflow",
-  //     image: case2,
-  //     description: "High airflow case for gaming builds.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 2,
-  //     },
-  //   },
-  //   {
-  //     id: "case-3",
-  //     name: "Cooler Master TD500",
-  //     image: case3,
-  //     description: "ARGB gaming cabinet with mesh front.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 3,
-  //     },
-  //   },
-  //   {
-  //     id: "case-4",
-  //     name: "Lian Li Lancool 215",
-  //     image: case4,
-  //     description: "High airflow case with RGB fans.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 3,
-  //     },
-  //   },
-  //   {
-  //     id: "case-5",
-  //     name: "Ant Esports ICE-511MT",
-  //     image: case5,
-  //     description: "Budget gaming cabinet with RGB.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 4,
-  //     },
-  //   },
-  //   {
-  //     id: "case-6",
-  //     name: "MSI MAG Forge 100R",
-  //     image: case6,
-  //     description: "Stylish case with tempered glass.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 2,
-  //     },
-  //   },
-  //   {
-  //     id: "case-7",
-  //     name: "Deepcool Matrexx 55",
-  //     image: case7,
-  //     description: "Budget case with clean design.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 1,
-  //     },
-  //   },
-  //   {
-  //     id: "case-8",
-  //     name: "Corsair iCUE 220T",
-  //     image: case8,
-  //     description: "Compact RGB case.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 3,
-  //     },
-  //   },
-  //   {
-  //     id: "case-9",
-  //     name: "Thermaltake V200",
-  //     image: case9,
-  //     description: "Gaming case with tempered glass.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 3,
-  //     },
-  //   },
-  //   {
-  //     id: "case-10",
-  //     name: "Zebronics Zeb-Apollo",
-  //     image: case10,
-  //     description: "Affordable gaming cabinet.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 3,
-  //     },
-  //   },
-  //   {
-  //     id: "case-11",
-  //     name: "Antec NX200",
-  //     image: case11,
-  //     description: "Compact case for budget builds.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "mATX",
-  //       fansIncluded: 1,
-  //     },
-  //   },
-  //   {
-  //     id: "case-12",
-  //     name: "Lian Li PC-O11 Dynamic",
-  //     image: case12,
-  //     description: "Premium dual-chamber case.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 0,
-  //     },
-  //   },
-  //   {
-  //     id: "case-13",
-  //     name: "Cooler Master NR200",
-  //     image: case13,
-  //     description: "Compact ITX case.",
-  //     specs: {
-  //       type: "Mini Tower",
-  //       motherboardSupport: "Mini-ITX",
-  //       fansIncluded: 2,
-  //     },
-  //   },
-  //   {
-  //     id: "case-14",
-  //     name: "Gigabyte C200 Glass",
-  //     image: case14,
-  //     description: "Stylish case with tempered glass.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 1,
-  //     },
-  //   },
-  //   {
-  //     id: "case-15",
-  //     name: "NZXT H7 Flow",
-  //     image: case15,
-  //     description: "High airflow premium case.",
-  //     specs: {
-  //       type: "Mid Tower",
-  //       motherboardSupport: "ATX / mATX",
-  //       fansIncluded: 2,
-  //     },
-  //   },
-  // ],
-  // cpucooler: [
-  //   {
-  //     id: "cooler-1",
-  //     name: "Cooler Master Hyper 212",
-  //     image: cooler1,
-  //     description: "Popular air cooler with excellent cooling performance.",
-  //     specs: {
-  //       type: "Air Cooler",
-  //       fanSize: "120mm",
-  //       tdpSupport: "150W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-2",
-  //     name: "Deepcool AK400",
-  //     image: cooler2,
-  //     description: "Efficient air cooler for mid-range CPUs.",
-  //     specs: {
-  //       type: "Air Cooler",
-  //       fanSize: "120mm",
-  //       tdpSupport: "180W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-3",
-  //     name: "Noctua NH-D15",
-  //     image: cooler3,
-  //     description: "High-end dual tower air cooler.",
-  //     specs: {
-  //       type: "Air Cooler",
-  //       fanSize: "140mm",
-  //       tdpSupport: "220W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-4",
-  //     name: "NZXT Kraken X53",
-  //     image: cooler4,
-  //     description: "240mm AIO liquid cooler.",
-  //     specs: {
-  //       type: "Liquid Cooler",
-  //       radiator: "240mm",
-  //       tdpSupport: "250W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-5",
-  //     name: "Corsair H100i RGB",
-  //     image: cooler5,
-  //     description: "High-performance liquid cooler with RGB.",
-  //     specs: {
-  //       type: "Liquid Cooler",
-  //       radiator: "240mm",
-  //       tdpSupport: "250W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-6",
-  //     name: "Cooler Master ML240L",
-  //     image: cooler6,
-  //     description: "Affordable AIO liquid cooler.",
-  //     specs: {
-  //       type: "Liquid Cooler",
-  //       radiator: "240mm",
-  //       tdpSupport: "230W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-7",
-  //     name: "Deepcool Gammaxx 400",
-  //     image: cooler7,
-  //     description: "Budget air cooler for entry builds.",
-  //     specs: {
-  //       type: "Air Cooler",
-  //       fanSize: "120mm",
-  //       tdpSupport: "130W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-8",
-  //     name: "Arctic Freezer 34",
-  //     image: cooler8,
-  //     description: "Silent and efficient air cooler.",
-  //     specs: {
-  //       type: "Air Cooler",
-  //       fanSize: "120mm",
-  //       tdpSupport: "180W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-9",
-  //     name: "Lian Li Galahad 240",
-  //     image: cooler9,
-  //     description: "Premium AIO with RGB lighting.",
-  //     specs: {
-  //       type: "Liquid Cooler",
-  //       radiator: "240mm",
-  //       tdpSupport: "260W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-10",
-  //     name: "MSI MAG CoreLiquid 240R",
-  //     image: cooler10,
-  //     description: "High performance liquid cooler.",
-  //     specs: {
-  //       type: "Liquid Cooler",
-  //       radiator: "240mm",
-  //       tdpSupport: "250W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-11",
-  //     name: "Cooler Master Hyper H410R",
-  //     image: cooler11,
-  //     description: "Compact air cooler for small builds.",
-  //     specs: {
-  //       type: "Air Cooler",
-  //       fanSize: "92mm",
-  //       tdpSupport: "100W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-12",
-  //     name: "NZXT Kraken Z63",
-  //     image: cooler12,
-  //     description: "Premium liquid cooler with LCD display.",
-  //     specs: {
-  //       type: "Liquid Cooler",
-  //       radiator: "280mm",
-  //       tdpSupport: "280W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-13",
-  //     name: "Be Quiet! Dark Rock 4",
-  //     image: cooler13,
-  //     description: "Ultra-quiet high-performance cooler.",
-  //     specs: {
-  //       type: "Air Cooler",
-  //       fanSize: "135mm",
-  //       tdpSupport: "200W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-14",
-  //     name: "Thermaltake UX200",
-  //     image: cooler14,
-  //     description: "RGB air cooler for gaming PCs.",
-  //     specs: {
-  //       type: "Air Cooler",
-  //       fanSize: "120mm",
-  //       tdpSupport: "150W",
-  //     },
-  //   },
-  //   {
-  //     id: "cooler-15",
-  //     name: "Deepcool LS720",
-  //     image: cooler15,
-  //     description: "High-end 360mm liquid cooler.",
-  //     specs: {
-  //       type: "Liquid Cooler",
-  //       radiator: "360mm",
-  //       tdpSupport: "300W",
-  //     },
-  //   },
-  // ],
+
+  psu: [
+    {
+      id: "psu-1",
+      name: "Corsair CV550",
+      img: background6,
+      heading: "Efficient Power Supplies",
+      sub: "Deliver clean, stable power to your system with trusted PSU solutions",
+      image: psu1,
+      price: 4200,
+      description: "Reliable 550W PSU for budget builds.",
+      specs: {
+        wattage: "550W",
+        efficiency: "80+ Bronze",
+        modular: "No",
+      },
+    },
+    {
+      id: "psu-2",
+      name: "Corsair RM650",
+      image: psu2,
+      price: 9200,
+      description: "Fully modular PSU with high efficiency.",
+      specs: {
+        wattage: "650W",
+        efficiency: "80+ Gold",
+        modular: "Yes",
+      },
+    },
+    {
+      id: "psu-3",
+      name: "Cooler Master MWE 650",
+      image: psu3,
+      price: 5600,
+      description: "Stable PSU for gaming systems.",
+      specs: {
+        wattage: "650W",
+        efficiency: "80+ Bronze",
+        modular: "No",
+      },
+    },
+    {
+      id: "psu-4",
+      name: "Seasonic Focus GX-750",
+      image: psu4,
+      price: 11500,
+      description: "Premium PSU with gold efficiency.",
+      specs: {
+        wattage: "750W",
+        efficiency: "80+ Gold",
+        modular: "Yes",
+      },
+    },
+    {
+      id: "psu-5",
+      name: "EVGA 600 BR",
+      image: psu5,
+      price: 4800,
+      description: "Affordable PSU for entry builds.",
+      specs: {
+        wattage: "600W",
+        efficiency: "80+ Bronze",
+        modular: "No",
+      },
+    },
+    {
+      id: "psu-6",
+      name: "Corsair RM750x",
+      image: psu6,
+      price: 12500,
+      description: "High-end PSU for gaming rigs.",
+      specs: {
+        wattage: "750W",
+        efficiency: "80+ Gold",
+        modular: "Fully Modular",
+      },
+    },
+    {
+      id: "psu-7",
+      name: "Cooler Master V850",
+      image: psu7,
+      price: 14000,
+      description: "850W PSU for high-end GPUs.",
+      specs: {
+        wattage: "850W",
+        efficiency: "80+ Gold",
+        modular: "Fully Modular",
+      },
+    },
+    {
+      id: "psu-8",
+      name: "Gigabyte P650B",
+      image: psu8,
+      price: 5200,
+      description: "Budget PSU with bronze rating.",
+      specs: {
+        wattage: "650W",
+        efficiency: "80+ Bronze",
+        modular: "No",
+      },
+    },
+    {
+      id: "psu-9",
+      name: "Thermaltake Smart 600W",
+      image: psu9,
+      price: 3900,
+      description: "Entry-level PSU for office PCs.",
+      specs: {
+        wattage: "600W",
+        efficiency: "80+ White",
+        modular: "No",
+      },
+    },
+    {
+      id: "psu-10",
+      name: "MSI MPG A750GF",
+      image: psu10,
+      price: 11800,
+      description: "High-quality PSU for gaming PCs.",
+      specs: {
+        wattage: "750W",
+        efficiency: "80+ Gold",
+        modular: "Fully Modular",
+      },
+    },
+    {
+      id: "psu-11",
+      name: "Antec VP550",
+      image: psu11,
+      price: 4100,
+      description: "Reliable PSU for budget builds.",
+      specs: {
+        wattage: "550W",
+        efficiency: "80+",
+        modular: "No",
+      },
+    },
+    {
+      id: "psu-12",
+      name: "Deepcool PK650D",
+      image: psu12,
+      price: 5400,
+      description: "Efficient PSU for mid-range systems.",
+      specs: {
+        wattage: "650W",
+        efficiency: "80+ Bronze",
+        modular: "No",
+      },
+    },
+    {
+      id: "psu-13",
+      name: "NZXT C750",
+      image: psu13,
+      price: 12800,
+      description: "High-quality PSU with clean power delivery.",
+      specs: {
+        wattage: "750W",
+        efficiency: "80+ Gold",
+        modular: "Fully Modular",
+      },
+    },
+    {
+      id: "psu-14",
+      name: "Cooler Master MWE 450",
+      image: psu14,
+      price: 3600,
+      description: "Entry-level PSU for office PCs.",
+      specs: {
+        wattage: "450W",
+        efficiency: "80+ Bronze",
+        modular: "No",
+      },
+    },
+    {
+      id: "psu-15",
+      name: "ASUS ROG Thor 850W",
+      image: psu15,
+      price: 28000,
+      description: "Premium PSU with OLED display.",
+      specs: {
+        wattage: "850W",
+        efficiency: "80+ Platinum",
+        modular: "Fully Modular",
+      },
+    },
+  ],
+
+  case: [
+    {
+      id: "case-1",
+      name: "NZXT H510",
+      img: background7,
+      heading: "Stylish PC Cabinets",
+      sub: "Designed for airflow, aesthetics, and optimal component cooling",
+      image: case1,
+      price: 7200,
+      description: "Minimalist mid-tower case with great airflow.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 2,
+      },
+    },
+    {
+      id: "case-2",
+      name: "Corsair 4000D Airflow",
+      image: case2,
+      price: 8900,
+      description: "High airflow case for gaming builds.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 2,
+      },
+    },
+    {
+      id: "case-3",
+      name: "Cooler Master TD500",
+      image: case3,
+      price: 8300,
+      description: "ARGB gaming cabinet with mesh front.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 3,
+      },
+    },
+    {
+      id: "case-4",
+      name: "Lian Li Lancool 215",
+      image: case4,
+      price: 7800,
+      description: "High airflow case with RGB fans.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 3,
+      },
+    },
+    {
+      id: "case-5",
+      name: "Ant Esports ICE-511MT",
+      image: case5,
+      price: 4200,
+      description: "Budget gaming cabinet with RGB.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 4,
+      },
+    },
+    {
+      id: "case-6",
+      name: "MSI MAG Forge 100R",
+      image: case6,
+      price: 6500,
+      description: "Stylish case with tempered glass.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 2,
+      },
+    },
+    {
+      id: "case-7",
+      name: "Deepcool Matrexx 55",
+      image: case7,
+      price: 5200,
+      description: "Budget case with clean design.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 1,
+      },
+    },
+    {
+      id: "case-8",
+      name: "Corsair iCUE 220T",
+      image: case8,
+      price: 7800,
+      description: "Compact RGB case.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 3,
+      },
+    },
+    {
+      id: "case-9",
+      name: "Thermaltake V200",
+      image: case9,
+      price: 5600,
+      description: "Gaming case with tempered glass.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 3,
+      },
+    },
+    {
+      id: "case-10",
+      name: "Zebronics Zeb-Apollo",
+      image: case10,
+      price: 3600,
+      description: "Affordable gaming cabinet.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 3,
+      },
+    },
+    {
+      id: "case-11",
+      name: "Antec NX200",
+      image: case11,
+      price: 3300,
+      description: "Compact case for budget builds.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "mATX",
+        fansIncluded: 1,
+      },
+    },
+    {
+      id: "case-12",
+      name: "Lian Li PC-O11 Dynamic",
+      image: case12,
+      price: 12500,
+      description: "Premium dual-chamber case.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 0,
+      },
+    },
+    {
+      id: "case-13",
+      name: "Cooler Master NR200",
+      image: case13,
+      price: 6900,
+      description: "Compact ITX case.",
+      specs: {
+        type: "Mini Tower",
+        motherboardSupport: "Mini-ITX",
+        fansIncluded: 2,
+      },
+    },
+    {
+      id: "case-14",
+      name: "Gigabyte C200 Glass",
+      image: case14,
+      price: 5100,
+      description: "Stylish case with tempered glass.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 1,
+      },
+    },
+    {
+      id: "case-15",
+      name: "NZXT H7 Flow",
+      image: case15,
+      price: 9800,
+      description: "High airflow premium case.",
+      specs: {
+        type: "Mid Tower",
+        motherboardSupport: "ATX / mATX",
+        fansIncluded: 2,
+      },
+    },
+  ],
+
+  cpuCooler: [
+    {
+      id: "cooler-1",
+      name: "Cooler Master Hyper 212",
+      img: background8,
+      heading: "Advanced Cooling Solutions",
+      sub: "Keep temperatures low and performance high with air and liquid coolers",
+      image: cooler1,
+      price: 3200,
+      description: "Popular air cooler with excellent cooling performance.",
+      specs: {
+        type: "Air Cooler",
+        fanSize: "120mm",
+        tdpSupport: "150W",
+      },
+    },
+    {
+      id: "cooler-2",
+      name: "Deepcool AK400",
+      image: cooler2,
+      price: 2800,
+      description: "Efficient air cooler for mid-range CPUs.",
+      specs: {
+        type: "Air Cooler",
+        fanSize: "120mm",
+        tdpSupport: "180W",
+      },
+    },
+    {
+      id: "cooler-3",
+      name: "Noctua NH-D15",
+      image: cooler3,
+      price: 9200,
+      description: "High-end dual tower air cooler.",
+      specs: {
+        type: "Air Cooler",
+        fanSize: "140mm",
+        tdpSupport: "220W",
+      },
+    },
+    {
+      id: "cooler-4",
+      name: "NZXT Kraken X53",
+      image: cooler4,
+      price: 11500,
+      description: "240mm AIO liquid cooler.",
+      specs: {
+        type: "Liquid Cooler",
+        radiator: "240mm",
+        tdpSupport: "250W",
+      },
+    },
+    {
+      id: "cooler-5",
+      name: "Corsair H100i RGB",
+      image: cooler5,
+      price: 11800,
+      description: "High-performance liquid cooler with RGB.",
+      specs: {
+        type: "Liquid Cooler",
+        radiator: "240mm",
+        tdpSupport: "250W",
+      },
+    },
+    {
+      id: "cooler-6",
+      name: "Cooler Master ML240L",
+      image: cooler6,
+      price: 7600,
+      description: "Affordable AIO liquid cooler.",
+      specs: {
+        type: "Liquid Cooler",
+        radiator: "240mm",
+        tdpSupport: "230W",
+      },
+    },
+    {
+      id: "cooler-7",
+      name: "Deepcool Gammaxx 400",
+      image: cooler7,
+      price: 2400,
+      description: "Budget air cooler for entry builds.",
+      specs: {
+        type: "Air Cooler",
+        fanSize: "120mm",
+        tdpSupport: "130W",
+      },
+    },
+    {
+      id: "cooler-8",
+      name: "Arctic Freezer 34",
+      image: cooler8,
+      price: 3500,
+      description: "Silent and efficient air cooler.",
+      specs: {
+        type: "Air Cooler",
+        fanSize: "120mm",
+        tdpSupport: "180W",
+      },
+    },
+    {
+      id: "cooler-9",
+      name: "Lian Li Galahad 240",
+      image: cooler9,
+      price: 12500,
+      description: "Premium AIO with RGB lighting.",
+      specs: {
+        type: "Liquid Cooler",
+        radiator: "240mm",
+        tdpSupport: "260W",
+      },
+    },
+    {
+      id: "cooler-10",
+      name: "MSI MAG CoreLiquid 240R",
+      image: cooler10,
+      price: 9800,
+      description: "High performance liquid cooler.",
+      specs: {
+        type: "Liquid Cooler",
+        radiator: "240mm",
+        tdpSupport: "250W",
+      },
+    },
+    {
+      id: "cooler-11",
+      name: "Cooler Master Hyper H410R",
+      image: cooler11,
+      price: 2100,
+      description: "Compact air cooler for small builds.",
+      specs: {
+        type: "Air Cooler",
+        fanSize: "92mm",
+        tdpSupport: "100W",
+      },
+    },
+    {
+      id: "cooler-12",
+      name: "NZXT Kraken Z63",
+      image: cooler12,
+      price: 18500,
+      description: "Premium liquid cooler with LCD display.",
+      specs: {
+        type: "Liquid Cooler",
+        radiator: "280mm",
+        tdpSupport: "280W",
+      },
+    },
+    {
+      id: "cooler-13",
+      name: "Be Quiet! Dark Rock 4",
+      image: cooler13,
+      price: 8900,
+      description: "Ultra-quiet high-performance cooler.",
+      specs: {
+        type: "Air Cooler",
+        fanSize: "135mm",
+        tdpSupport: "200W",
+      },
+    },
+    {
+      id: "cooler-14",
+      name: "Thermaltake UX200",
+      image: cooler14,
+      price: 2600,
+      description: "RGB air cooler for gaming PCs.",
+      specs: {
+        type: "Air Cooler",
+        fanSize: "120mm",
+        tdpSupport: "150W",
+      },
+    },
+    {
+      id: "cooler-15",
+      name: "Deepcool LS720",
+      image: cooler15,
+      price: 14500,
+      description: "High-end 360mm liquid cooler.",
+      specs: {
+        type: "Liquid Cooler",
+        radiator: "360mm",
+        tdpSupport: "300W",
+      },
+    },
+  ],
 };
 
 export default data;

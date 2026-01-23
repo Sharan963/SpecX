@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "@/assets/Images/game-hero.webp";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -18,12 +19,12 @@ const Main = () => {
 
           {/* Buttons */}
           <div className="flex gap-4 mt-4">
-            <button
+            <Link to="/builder"
               className="px-6 py-3 bg-linear-to-r from-indigo-500 to-purple-600 text-white font-heading rounded-md  transition-transform duration-200 ease-out 
                    hover:scale-105 active:scale-95 cursor-pointer"
             >
               Build Your PC
-            </button>
+            </Link>
 
             <button
               className="px-6 py-3 border border-white text-white font-heading rounded-md  transition-transform duration-200 ease-out 

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div
+      <div id="footer"
         className="w-full h-87.5 bg-[#0A0A0F]
              border-t border-cyan-300/30
              shadow-[0_2px_20px_rgba(0,229,255,0.35)] flex"
@@ -37,9 +37,9 @@ const Footer = () => {
           <div className=" flex-1 h-full flex items-center justify-center flex-col">
             <h1 className="font-heading-alt text-3xl text-white">Contact</h1>
             <div className="flex font-heading flex-col text-white gap-2 mt-3 cursor-pointer text-[15px]">
-              <Link>Phone:</Link>
-              <Link>Email:</Link>
-              <Link>WhatsApp:</Link>
+              <Link>Phone : +91 80860 13394</Link>
+              <Link>Email : specXbuild@gmail.com</Link>
+              <Link>WhatsApp : +91 95524 25789</Link>
             </div>
           </div>
         </div>
