@@ -23,7 +23,7 @@ export default function CategoryItems() {
   const { heading, sub, img } = items[0];
 
   return (
-    <div className="pt-24 px-6 pb-10 text-white flex flex-col items-center">
+    <div className="pt-40 px-6 pb-10 text-white flex flex-col items-center">
       {/* HERO */}
       <div
         className="relative w-[1500px] h-[600px] rounded-xl flex items-center px-10 mb-16

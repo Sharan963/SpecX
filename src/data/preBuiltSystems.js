@@ -1,9 +1,16 @@
+import pc1 from "@/assets/Images/pc1.webp";
+import pc2 from "@/assets/Images/pc2.webp";
+import pc3 from "@/assets/Images/pc3.jpg";
+import pc4 from "@/assets/Images/pc4.avif";
+import pc5 from "@/assets/Images/pc5.jpg";
+import pc6 from "@/assets/Images/pc6.webp";
+
 const preBuiltSystems = [
   {
     id: "budget-gaming-pc",
     name: "Budget Gaming PC",
-    image: "/assets/prebuilt/budget.jpg",
-    price: "₹45,000",
+    image: pc1,
+    price: "₹145,000",
     useCase: "Casual Gaming",
     specs: {
       cpu: "Ryzen 5 4500",
@@ -16,8 +23,8 @@ const preBuiltSystems = [
   {
     id: "mid-range-gaming-pc",
     name: "Mid Range Gaming PC",
-    image: "/assets/prebuilt/mid.jpg",
-    price: "₹75,000",
+    image: pc2,
+    price: "₹175,000",
     useCase: "Gaming + Streaming",
     specs: {
       cpu: "Ryzen 5 5600X",
@@ -30,8 +37,8 @@ const preBuiltSystems = [
   {
     id: "high-end-pc",
     name: "High End Gaming PC",
-    image: "/assets/prebuilt/high.jpg",
-    price: "₹1,40,000",
+    image: pc3,
+    price: "₹3,40,000",
     useCase: "4K Gaming / Editing",
     specs: {
       cpu: "Ryzen 7 7800X3D",
@@ -44,8 +51,8 @@ const preBuiltSystems = [
   {
     id: "esports-pc",
     name: "Esports Gaming PC",
-    image: "/assets/prebuilt/esports.jpg",
-    price: "₹60,000",
+    image: pc4,
+    price: "₹460,000",
     useCase: "Competitive Gaming",
     specs: {
       cpu: "Intel i5 12400F",
@@ -58,8 +65,8 @@ const preBuiltSystems = [
   {
     id: "creator-pc",
     name: "Content Creator PC",
-    image: "/assets/prebuilt/creator.jpg",
-    price: "₹1,10,000",
+    image: pc5,
+    price: "₹1,50,000",
     useCase: "Video Editing / Rendering",
     specs: {
       cpu: "Ryzen 7 7700X",
@@ -72,7 +79,7 @@ const preBuiltSystems = [
   {
     id: "workstation-pc",
     name: "Workstation PC",
-    image: "/assets/prebuilt/workstation.jpg",
+    image: pc6,
     price: "₹1,80,000",
     useCase: "3D / AI / Heavy Workloads",
     specs: {

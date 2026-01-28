@@ -1,10 +1,46 @@
+import fan1 from "@/assets/Images/cpuFan1.jpg";
+import fan2 from "@/assets/Images/cpuFan2.png";
+import fan3 from "@/assets/Images/cpuFan3.jpg";
+import fan4 from "@/assets/Images/cpuFan4.jpg";
+import fan5 from "@/assets/Images/cpuFan5.webp";
+import fan6 from "@/assets/Images/cpuFan6.jpg";
+import fan7 from "@/assets/Images/cpuFan7.webp";
+import fan8 from "@/assets/Images/cpuFan8.jpg";
+import fan9 from "@/assets/Images/cpuFan9.jpg";
+import background1 from "@/assets/Images/fanbackground.webp";
+
+import lc1 from "@/assets/Images/liquid1.jpg";
+import lc2 from "@/assets/Images/liquid2.jpg";
+import lc3 from "@/assets/Images/liquid3.jpg";
+import lc4 from "@/assets/Images/liquid4.webp";
+import lc5 from "@/assets/Images/liquid5.jpg";
+import lc6 from "@/assets/Images/liquid6.webp";
+import lc7 from "@/assets/Images/liquid7.jpg";
+import lc8 from "@/assets/Images/liquid8.jpg";
+import lc9 from "@/assets/Images/liquid9.jpg";
+import background2 from "@/assets/Images/liquidbackground.webp";
+
+import rgb1 from "@/assets/Images/rgb1.avif";
+import rgb2 from "@/assets/Images/rgb2.jpg";
+import rgb3 from "@/assets/Images/rgb3.webp";
+import rgb4 from "@/assets/Images/rgb4.jpg";
+import rgb5 from "@/assets/Images/rgb5.jpg";
+import rgb6 from "@/assets/Images/rgb6.jpg";
+import rgb7 from "@/assets/Images/rgb7.jpg";
+import rgb8 from "@/assets/Images/rgb8.jpg";
+import rgb9 from "@/assets/Images/rgb9.webp";
+import background3 from "@/assets/Images/rgbbackground.avif";
+
 const accessoriesData = {
   cpuFan: [
     {
       id: "cpu-fan-1",
       name: "Cooler Master Hyper 212",
+      heading: "High-Performance CPU Coolers",
+      sub: "Designed to handle intense gaming loads with superior airflow and cooling",
+      img: background1,
+      image: fan1,
       price: 3200,
-      image: "/images/cpu-fans/hyper-212.png",
       description: "Popular air cooler with excellent cooling performance.",
       specs: {
         fanSize: "120mm",
@@ -17,8 +53,8 @@ const accessoriesData = {
     {
       id: "cpu-fan-2",
       name: "DeepCool GAMMAXX 400",
+      image: fan2,
       price: 2800,
-      image: "/images/cpu-fans/gammaxx-400.png",
       description: "Affordable CPU cooler with good thermal performance.",
       specs: {
         fanSize: "120mm",
@@ -31,8 +67,8 @@ const accessoriesData = {
     {
       id: "cpu-fan-3",
       name: "Noctua NH-D15",
+      image: fan3,
       price: 9500,
-      image: "/images/cpu-fans/nh-d15.png",
       description: "High-end dual tower air cooler.",
       specs: {
         fanSize: "140mm",
@@ -45,8 +81,8 @@ const accessoriesData = {
     {
       id: "cpu-fan-4",
       name: "Cooler Master MA620P",
+      image: fan4,
       price: 7200,
-      image: "/images/cpu-fans/ma620p.png",
       description: "Dual tower RGB air cooler.",
       specs: {
         fanSize: "120mm",
@@ -59,8 +95,8 @@ const accessoriesData = {
     {
       id: "cpu-fan-5",
       name: "DeepCool AK620",
+      image: fan5,
       price: 6800,
-      image: "/images/cpu-fans/ak620.png",
       description: "High performance dual tower cooler.",
       specs: {
         fanSize: "120mm",
@@ -73,8 +109,8 @@ const accessoriesData = {
     {
       id: "cpu-fan-6",
       name: "be quiet! Dark Rock 4",
+      image: fan6,
       price: 7500,
-      image: "/images/cpu-fans/dark-rock-4.png",
       description: "Ultra-quiet premium air cooler.",
       specs: {
         fanSize: "135mm",
@@ -87,8 +123,8 @@ const accessoriesData = {
     {
       id: "cpu-fan-7",
       name: "Arctic Freezer 34 eSports",
+      image: fan7,
       price: 4200,
-      image: "/images/cpu-fans/freezer-34.png",
       description: "Efficient cooler for gaming CPUs.",
       specs: {
         fanSize: "120mm",
@@ -101,8 +137,8 @@ const accessoriesData = {
     {
       id: "cpu-fan-8",
       name: "Thermaltake UX100",
+      image: fan8,
       price: 2600,
-      image: "/images/cpu-fans/ux100.png",
       description: "Compact RGB CPU air cooler.",
       specs: {
         fanSize: "120mm",
@@ -115,8 +151,8 @@ const accessoriesData = {
     {
       id: "cpu-fan-9",
       name: "Ant Esports ICE-C200",
+      image: fan9,
       price: 1800,
-      image: "/images/cpu-fans/ice-c200.png",
       description: "Budget CPU cooler for entry builds.",
       specs: {
         fanSize: "120mm",
@@ -132,8 +168,11 @@ const accessoriesData = {
     {
       id: "lc-1",
       name: "Corsair iCUE H100i RGB Pro XT",
+      heading: "AIO Liquid Cooling Solutions",
+      sub: "Optimized cooling performance with efficient heat dissipation",
+      img: background2,
+      image: lc1,
       price: 9800,
-      image: "/images/liquid-coolers/h100i.png",
       description: "240mm AIO liquid cooler with high-performance RGB cooling.",
       specs: {
         radiator: "240mm",
@@ -146,8 +185,8 @@ const accessoriesData = {
     {
       id: "lc-2",
       name: "NZXT Kraken X63",
+      image: lc2,
       price: 12500,
-      image: "/images/liquid-coolers/kraken-x63.png",
       description: "Premium AIO with superior cooling performance.",
       specs: {
         radiator: "280mm",
@@ -160,8 +199,8 @@ const accessoriesData = {
     {
       id: "lc-3",
       name: "Cooler Master ML240L V2",
+      image: lc3,
       price: 7200,
-      image: "/images/liquid-coolers/ml240l.png",
       description: "Affordable 240mm liquid cooler with RGB.",
       specs: {
         radiator: "240mm",
@@ -174,8 +213,8 @@ const accessoriesData = {
     {
       id: "lc-4",
       name: "DeepCool Castle 240EX",
+      image: lc4,
       price: 8800,
-      image: "/images/liquid-coolers/castle-240ex.png",
       description: "High-performance AIO with anti-leak technology.",
       specs: {
         radiator: "240mm",
@@ -188,8 +227,8 @@ const accessoriesData = {
     {
       id: "lc-5",
       name: "Arctic Liquid Freezer II 280",
+      image: lc5,
       price: 9600,
-      image: "/images/liquid-coolers/freezer-ii-280.png",
       description: "Top-tier cooling with excellent thermal efficiency.",
       specs: {
         radiator: "280mm",
@@ -202,8 +241,8 @@ const accessoriesData = {
     {
       id: "lc-6",
       name: "MSI MAG CoreLiquid 240R",
+      image: lc6,
       price: 7900,
-      image: "/images/liquid-coolers/coreliquid-240r.png",
       description: "ARGB liquid cooler for gaming PCs.",
       specs: {
         radiator: "240mm",
@@ -216,8 +255,8 @@ const accessoriesData = {
     {
       id: "lc-7",
       name: "ASUS ROG Strix LC 240",
+      image: lc7,
       price: 11500,
-      image: "/images/liquid-coolers/rog-strix-240.png",
       description: "High-end cooling with ROG aesthetics.",
       specs: {
         radiator: "240mm",
@@ -230,8 +269,8 @@ const accessoriesData = {
     {
       id: "lc-8",
       name: "Thermaltake Floe Riing 240",
+      image: lc8,
       price: 10200,
-      image: "/images/liquid-coolers/floe-riing.png",
       description: "RGB liquid cooler with software control.",
       specs: {
         radiator: "240mm",
@@ -244,8 +283,8 @@ const accessoriesData = {
     {
       id: "lc-9",
       name: "Ant Esports ICE Chroma 240",
+      image: lc9,
       price: 5400,
-      image: "/images/liquid-coolers/ice-chroma-240.png",
       description: "Budget AIO liquid cooler with RGB.",
       specs: {
         radiator: "240mm",
@@ -261,8 +300,11 @@ const accessoriesData = {
     {
       id: "rgb-1",
       name: "Corsair iCUE Lighting Node Pro",
+      heading: "RGB Lighting Kits",
+      sub: "Customize your setup with vibrant lighting and stunning visual effects",
+      img: background3,
+      image: rgb1,
       price: 4200,
-      image: "/images/rgb-kits/icue-node-pro.png",
       description: "Advanced RGB lighting kit with full software control.",
       specs: {
         type: "LED Strip",
@@ -275,8 +317,8 @@ const accessoriesData = {
     {
       id: "rgb-2",
       name: "NZXT Hue 2 RGB Kit",
+      image: rgb2,
       price: 4800,
-      image: "/images/rgb-kits/hue-2.png",
       description: "Premium RGB lighting system with smooth effects.",
       specs: {
         type: "LED Strip",
@@ -289,8 +331,8 @@ const accessoriesData = {
     {
       id: "rgb-3",
       name: "Cooler Master RGB LED Controller",
+      image: rgb3,
       price: 3500,
-      image: "/images/rgb-kits/cm-rgb.png",
       description: "RGB lighting kit with controller and strips.",
       specs: {
         type: "LED Strip",
@@ -303,8 +345,8 @@ const accessoriesData = {
     {
       id: "rgb-4",
       name: "DeepCool RGB 200 Pro",
+      image: rgb4,
       price: 3000,
-      image: "/images/rgb-kits/deepcool-200.png",
       description: "Magnetic RGB lighting strips.",
       specs: {
         type: "LED Strip",
@@ -317,8 +359,8 @@ const accessoriesData = {
     {
       id: "rgb-5",
       name: "Lian Li Strimer Plus",
+      image: rgb5,
       price: 6500,
-      image: "/images/rgb-kits/strimer-plus.png",
       description: "RGB power cable lighting kit.",
       specs: {
         type: "Cable RGB",
@@ -331,8 +373,8 @@ const accessoriesData = {
     {
       id: "rgb-6",
       name: "Thermaltake RGB Plus",
+      image: rgb6,
       price: 5200,
-      image: "/images/rgb-kits/thermaltake-rgb.png",
       description: "RGB lighting kit with vivid colors.",
       specs: {
         type: "LED Strip",
@@ -345,8 +387,8 @@ const accessoriesData = {
     {
       id: "rgb-7",
       name: "Ant Esports RGB Strip Kit",
+      image: rgb7,
       price: 1800,
-      image: "/images/rgb-kits/ant-esports.png",
       description: "Budget RGB lighting kit for gaming PCs.",
       specs: {
         type: "LED Strip",
@@ -359,8 +401,8 @@ const accessoriesData = {
     {
       id: "rgb-8",
       name: "MSI Mystic Light RGB Kit",
+      image: rgb8,
       price: 3900,
-      image: "/images/rgb-kits/msi-mystic.png",
       description: "RGB lighting kit compatible with MSI boards.",
       specs: {
         type: "LED Strip",
@@ -373,8 +415,8 @@ const accessoriesData = {
     {
       id: "rgb-9",
       name: "ASUS Aura RGB Kit",
+      image: rgb9,
       price: 4500,
-      image: "/images/rgb-kits/asus-aura.png",
       description: "Aura Sync compatible RGB lighting kit.",
       specs: {
         type: "LED Strip",

@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import preBuiltData from "@/data/preBuiltSystems.js";
 
 export default function PreBuild() {
+  const navigate = useNavigate();
+
   return (
     <div className="p-10 text-white">
       <h1 className="text-4xl font-heading mb-8">
@@ -11,15 +14,17 @@ export default function PreBuild() {
         {preBuiltData.map((pc) => (
           <div
             key={pc.id}
-            className="bg-[#0e0e13] rounded-lg p-4 hover:scale-[1.03] transition"
+            className="bg-[#0e0e13] rounded-xl p-5
+                       hover:scale-[1.02] transition duration-200
+                       border border-white/5 hover:border-cyan-400/30"
           >
             <img
               src={pc.image}
               alt={pc.name}
-              className="w-full h-48 object-cover rounded"
+              className="w-full h-48 object-cover rounded-lg"
             />
 
-            <h2 className="text-xl font-semibold mt-4">
+            <h2 className="text-xl font-heading-alt mt-4">
               {pc.name}
             </h2>
 
@@ -27,19 +32,27 @@ export default function PreBuild() {
               {pc.useCase}
             </p>
 
-            <p className="text-green-400 mt-2 font-semibold">
+            <p className="text-green-400 mt-2 font-semibold text-lg">
               {pc.price}
             </p>
 
-            <ul className="text-sm mt-3 space-y-1">
-              <li>CPU: {pc.specs.cpu}</li>
-              <li>GPU: {pc.specs.gpu}</li>
-              <li>RAM: {pc.specs.ram}</li>
-              <li>Storage: {pc.specs.storage}</li>
-              <li>PSU: {pc.specs.psu}</li>
+            <ul className="text-sm mt-3 space-y-1 text-gray-300">
+              <li><span className="text-white">CPU:</span> {pc.specs.cpu}</li>
+              <li><span className="text-white">GPU:</span> {pc.specs.gpu}</li>
+              <li><span className="text-white">RAM:</span> {pc.specs.ram}</li>
+              <li><span className="text-white">Storage:</span> {pc.specs.storage}</li>
+              <li><span className="text-white">PSU:</span> {pc.specs.psu}</li>
             </ul>
 
-            <button className="mt-4 w-full bg-blue-600 py-2 rounded hover:bg-blue-700">
+            <button
+              onClick={() => navigate(`/prebuilt/${pc.id}`)}
+              className="mt-5 w-full py-2.5 rounded-lg
+                         bg-gradient-to-r from-cyan-500 to-blue-600
+                         text-white font-medium
+                         hover:from-cyan-400 hover:to-blue-500
+                         transition-all duration-200
+                         shadow-md hover:shadow-lg"
+            >
               View Details
             </button>
           </div>
