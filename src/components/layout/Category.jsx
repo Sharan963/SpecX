@@ -71,7 +71,7 @@ export default function Category() {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full h-screen mt-30 text-white p-10 flex flex-col items-center">
+    <div id="components" className="w-full h-screen mt-30 text-white p-10 flex flex-col items-center">
       <h1 className="font-heading-alt text-5xl">Core Components</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-3">
         {coreComponents.map((item) => (

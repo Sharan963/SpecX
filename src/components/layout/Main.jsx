@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <>
-      <div className="text-white w-full h-screen flex ">
+      <div id="home" className="text-white w-full h-screen flex ">
         <div className="w-[50%] h-screen box-border p-28 flex flex-col justify-center gap-6">
           {/* Heading */}
           <h1 className="text-7xl font-heading-alt text-[#F8F9FB] leading-tight">
@@ -26,12 +26,12 @@ const Main = () => {
               Build Your PC
             </Link>
 
-            <button
+            <Link to="/systems"
               className="px-6 py-3 border border-white text-white font-heading rounded-md  transition-transform duration-200 ease-out 
                    hover:scale-105 active:scale-95 cursor-pointer"
             >
               View Builds
-            </button>
+            </Link>
           </div>
         </div>
 

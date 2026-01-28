@@ -10,7 +10,7 @@ export default function CategoryItems() {
     window.scrollTo(0, 0);
   }, []);
 
-  const items = data[category];
+  const items = data?.[category];
 
   if (!items || items.length === 0) {
     return (

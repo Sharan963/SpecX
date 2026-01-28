@@ -1,8 +1,12 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const ReadyToBuild = () => {
   const navigate = useNavigate();
+  const scrollToComponents = () => {
+    const component = document.getElementById("components");
+    component?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="w-full h-100 flex items-center justify-center">
       <div className="w-[92%] h-full flex items-center justify-center flex-col gap-10">
@@ -26,9 +30,9 @@ const ReadyToBuild = () => {
           </button>
 
           <button
+            onClick={scrollToComponents}
             className="px-8 py-3 border border-white/40 text-white font-heading rounded-lg 
                  hover:bg-white/10 transition duration-200"
-            onClick={() => navigate("/components")}
           >
             View Components
           </button>
